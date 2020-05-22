@@ -8,3 +8,4 @@ print(phrase.isupper())#function to check if the phrase variable is uppercase re
 print(phrase.islower())#function to chek if the pharse variable is lowerCase returns false if not
 print(phrase.upper().isupper())#converts the string to upperCase then returns True
 print(phrase.lower().islower())#converts the string to lowercase then returns True
+print(len(phrase))# outputs the length of a string defined in your variable that is
