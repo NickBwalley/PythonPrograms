@@ -1,3 +1,4 @@
+from math import *
 print(99.99)#basic print statement
 print(79+99)#basic Arithmetic Operation
 print(4-9)#arithmetic Operation
@@ -14,4 +15,6 @@ print(abs(bronze))#prints the absolute value of the number
 print (pow(9,2))#the same as 9^2//returns 81
 print(max(9.98,9.99))#prints out the maximum of the two numbers
 print(min(9.98,9.99))#prints out the minimum of the two numbers
-print(round(3.6))#rounds down or up the number given in the arguments
+print(round(3.6))#rounds off
+print(floor(5.9))#rounds down a Number
+print(ceil(5.1))#rounds up a number
