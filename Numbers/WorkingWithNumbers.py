@@ -1,4 +1,4 @@
-from math import *
+from math import * #library to  use alot more of math functions to use to print out values 
 print(99.99)#basic print statement
 print(79+99)#basic Arithmetic Operation
 print(4-9)#arithmetic Operation
@@ -19,3 +19,11 @@ print(round(3.6))#rounds off
 print(floor(5.9))#rounds down a Number
 print(ceil(5.1))#rounds up a number
 print(sqrt(81.79))#prints out the square root of a number
+print(1+2+3*(1+2+3))#print
+def get_cube_root(num):
+        return num ** (1. /3)
+print(get_cube_root(num=1728))#prints out the cubeRoot of a number
+
+
+
+
