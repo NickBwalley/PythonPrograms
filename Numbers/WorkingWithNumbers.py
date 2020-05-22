@@ -14,3 +14,4 @@ print(abs(bronze))#prints the absolute value of the number
 print (pow(9,2))#the same as 9^2//returns 81
 print(max(9.98,9.99))#prints out the maximum of the two numbers
 print(min(9.98,9.99))#prints out the minimum of the two numbers
+print(round(3.6))#rounds down or up the number given in the arguments
