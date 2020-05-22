@@ -9,4 +9,5 @@ print(my_num)#prints out my_num
 #for you to be able to print the number with the string you must first convert the number to string first
 #then print it out else it will return an error
 print(str(my_num) + " is my Favorite Number")
-
+bronze = -9
+print(abs(bronze))#prints the absolute value of the number
