@@ -6,3 +6,7 @@ print(14*(2+9))#using parenthesis to specify the order of operation
 print(10 % 3)#using the modulus to get the remainder
 my_num = 79#using a variable to print out a value
 print(my_num)#prints out my_num
+#for you to be able to print the number with the string you must first convert the number to string first
+#then print it out else it will return an error
+print(str(my_num) + " is my Favorite Number")
+
