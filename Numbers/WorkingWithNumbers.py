@@ -11,3 +11,5 @@ print(my_num)#prints out my_num
 print(str(my_num) + " is my Favorite Number")
 bronze = -9
 print(abs(bronze))#prints the absolute value of the number
+print (pow(9,2))#the same as 9^2//returns 81
+
