@@ -10,4 +10,5 @@ print(phrase.upper().isupper())#converts the string to upperCase then returns Tr
 print(phrase.lower().islower())#converts the string to lowercase then returns True
 print(len(phrase))# outputs the length of a string defined in your variable that is
 print(phrase[0])#output the first letter inside our variable phrase >> it will start at 0 index
-print(phrase.index("Y"))#returns the index of the variable string 
+print(phrase.index("rm"))#returns the index of the variable string
+print(phrase.replace("PYCharm", "NickBwalley")) # function to replace a value with another
