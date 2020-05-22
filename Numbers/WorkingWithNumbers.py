@@ -18,3 +18,4 @@ print(min(9.98,9.99))#prints out the minimum of the two numbers
 print(round(3.6))#rounds off
 print(floor(5.9))#rounds down a Number
 print(ceil(5.1))#rounds up a number
+print(sqrt(81.79))#prints out the square root of a number
