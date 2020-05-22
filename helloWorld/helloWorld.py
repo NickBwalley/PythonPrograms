@@ -1,2 +1,4 @@
 print("hello World!")
-print("I am NickBwalley..Began Python on 22 May 2020")
+print("NickBwalley!..Here")
+print("Started Python: 22nd May 2020")
+print("Main aim: Python Freelancer & Game Programmer")
