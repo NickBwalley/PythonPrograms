@@ -1,6 +1,6 @@
 
-def say_hi ():
-    print("Hello NickBwalley")
+def say_hi (name):
+    print("Hello "+name)
 
-say_hi()
-    
+name = input("What is Your Name: ")
+say_hi(name)
