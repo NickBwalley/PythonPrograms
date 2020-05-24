@@ -11,3 +11,11 @@ friends.remove("Lashley")#removes the element from the list
 print(friends)
 friends.clear() #removes everthing from the list
 print(friends)
+friends.append("RandyOrton")
+friends.append("KeithLee")
+friends.append("TommassoCiampa")
+friends.append( "JohnnyGargano")
+print(friends)
+friends.pop()#pops the last element of the list
+print(friends)
+print(friends.index("KeithLee"))#prints the index of the item in the list
