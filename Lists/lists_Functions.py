@@ -9,3 +9,5 @@ friends.insert(1,"Lana")#adds the element at the index1
 print(friends)
 friends.remove("Lashley")#removes the element from the list
 print(friends)
+friends.clear() #removes everthing from the list
+print(friends)
