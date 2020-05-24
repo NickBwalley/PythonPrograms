@@ -25,8 +25,8 @@ friends.sort()#sorts the list in alphabetical order
 print(friends)
 lucky_numbers.sort()#sorts the numbers in ascending order
 print(lucky_numbers)
-friends2 = friends.copy()#makes a copy of the original friends 
+friends2 = friends.copy()#makes a copy of the original friends
 print(friends2)
-friends2.remove("TommassoCiampa")
+friends2.remove("TommassoCiampa")#removes the entity from the list
 print(friends)
 print(friends2)
