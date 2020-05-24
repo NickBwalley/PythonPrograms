@@ -19,3 +19,14 @@ print(friends)
 friends.pop()#pops the last element of the list
 print(friends)
 print(friends.index("KeithLee"))#prints the index of the item in the list
+friends.append("RandyOrton")
+print(friends.count("RandyOrton"))#counts the number of elements are there in the list
+friends.sort()#sorts the list in alphabetical order
+print(friends)
+lucky_numbers.sort()#sorts the numbers in ascending order
+print(lucky_numbers)
+friends2 = friends.copy()#makes a copy of the original friends 
+print(friends2)
+friends2.remove("TommassoCiampa")
+print(friends)
+print(friends2)
