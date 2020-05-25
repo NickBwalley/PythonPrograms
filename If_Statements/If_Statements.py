@@ -1,6 +1,6 @@
 
 is_male = False
-is_tall = True
+is_tall = False
 if is_male and is_tall:#when using the and operator both conditions have to be true for the condition to return a true
     print("You are a Tall Male!")
 elif is_male and not(is_tall):
@@ -8,5 +8,5 @@ elif is_male and not(is_tall):
 elif not(is_male) and is_tall:
     print("You are Tall but You are a Female!")
 else:
-    print("You are Neither Male nor Tall!")
+    print("You are Not a Male and Not Tall!")
 
