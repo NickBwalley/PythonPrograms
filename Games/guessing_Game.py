@@ -1,8 +1,18 @@
 
 secret_word = "diamond"
 guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False
 
-while guess != secret_word:
-    guess = input("Enter Your Guess: ")
+while guess != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+        guess = input("Enter Your Guess: ")
+        guess_count +=1
+    else:
+        out_of_guesses = True
 
-print("You Win!")
+if out_of_guesses:
+    print("Out if Guesses, YOU LOSE!..")
+else:
+    print("Guess Correct, YOU WIN!..")
