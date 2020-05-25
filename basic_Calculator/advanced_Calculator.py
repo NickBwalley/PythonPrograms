@@ -1,7 +1,7 @@
 #building  an advanced calculator
 
 num1 = float(input("Enter First Number: "))
-op = input("Enter Mathematical Operator: ")
+op = input("Enter Operator:(+,-,*,/) ")
 num2 = float(input("Enter Second Number: "))
 
 if op == "+":
