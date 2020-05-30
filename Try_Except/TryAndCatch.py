@@ -6,5 +6,5 @@ try:
     print(Division)
 except ZeroDivisionError as err:
     print(err)#prints out a specific error (divided by zero )
-except ValueError:
-    print("Invalid Input!..Integers Only!...")
+except ValueError as value:
+    print(value)#prints out the compiler error
