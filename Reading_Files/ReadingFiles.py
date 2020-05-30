@@ -13,6 +13,8 @@ print("-----------------------")
 print(employee_file.readline())#reads out one line
 print(employee_file.readline())#reads out the next line
 print("-----------------------")
-print(employee_file.readlines())#takes all the lines and puts them inside an array
+#print(employee_file.readlines())#takes all the lines and puts them inside an array
+print("-----------------------")
+print(employee_file.readlines()[2])#takes the element and prints it out of the array
 
 employee_file.close()
