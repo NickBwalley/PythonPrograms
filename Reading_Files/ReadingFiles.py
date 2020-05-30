@@ -15,6 +15,9 @@ print(employee_file.readline())#reads out the next line
 print("-----------------------")
 #print(employee_file.readlines())#takes all the lines and puts them inside an array
 print("-----------------------")
-print(employee_file.readlines()[2])#takes the element and prints it out of the array
+#print(employee_file.readlines()[2])#takes the element and prints it out of the array
+print("-----------------------")
+for employee in employee_file.readlines():
+    print(employee)#prints out the elements inside the readlines array created
 
 employee_file.close()
