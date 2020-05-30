@@ -14,3 +14,11 @@ print("------------")
 names = ["Allan", "Smith", "Peter", "Drury"]
 for index in range(len(names)):
     print(names[index])
+print("------------")
+for item in range(7):
+    if item == 0:
+        print("First Iteration")
+    elif item == 3:
+        print("Mid Iteration")
+    else:
+        print(item)
