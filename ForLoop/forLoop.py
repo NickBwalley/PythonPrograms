@@ -7,3 +7,10 @@ for friend in friends:
 
 for index in range(10):#prints out the values from 1 >> 10
     print(index)
+print("----------")
+for index in range(3,10):
+    print(index)
+print("------------")
+names = ["Allan", "Smith", "Peter", "Drury"]
+for index in range(len(names)):
+    print(names[index])
