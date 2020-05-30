@@ -4,7 +4,7 @@ try:
     print(Number)
     Division = 10/0
     print(Division)
-except ZeroDivisionError:
-    print("You Can't Divide a Number by Zero!..")
+except ZeroDivisionError as err:
+    print(err)#prints out a specific error (divided by zero )
 except ValueError:
     print("Invalid Input!..Integers Only!...")
