@@ -2,5 +2,9 @@
 try:
     Number = int(input("Enter Your Favorite Number: "))
     print(Number)
-except:
-    print("Invalid Input!..Integers Only!")
+    Division = 10/0
+    print(Division)
+except ZeroDivisionError:
+    print("You Can't Divide a Number by Zero!..")
+except ValueError:
+    print("Invalid Input!..Integers Only!...")
