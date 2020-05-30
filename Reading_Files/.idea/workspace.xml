@@ -118,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1590882590036">
