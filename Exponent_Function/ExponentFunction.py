@@ -8,4 +8,4 @@ def raise_to_power(base_num, power_num):
         result = result * base_num
     return result
 
-print(raise_to_power(3, 3))#from function raise_to_power
+print(raise_to_power(3, 4))#from function raise_to_power
