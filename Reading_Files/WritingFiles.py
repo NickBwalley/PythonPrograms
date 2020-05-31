@@ -1,5 +1,6 @@
 
-employee_file = open("index.txt", "r")
-for employees in employee_file.readlines():
-    print(employees)
+employee_file = open("index.txt", "a")
+#employee_file.write("\nBobby Lashley - Almighty")#adding an item inside the writingFiles
+
+
 employee_file.close()
