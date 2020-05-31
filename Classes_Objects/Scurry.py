@@ -1,4 +1,3 @@
 class Student:
 
-    def __init__(self, Name, StdNo, Gpa, is_on_probation):
-        
+    def __init__(self, name, stdNo, gpa, is_on_probation):
