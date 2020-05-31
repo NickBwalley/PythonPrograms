@@ -1,3 +1,8 @@
+'''
+Modules are basically any external files that you want to use and instead of copying the content
+into your page you just add the import of that external keyword inside your workspace
+'''
+
 import useful_Tools
 
 
