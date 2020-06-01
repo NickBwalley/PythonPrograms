@@ -5,6 +5,7 @@ question_prompts = [
     "A group of Monkeys are Called?\n(a)Scurry\n(b)Troop\n(c)Scree\n(d)Bunch\n\n",
     "A group of Giraffes are Called?\n(a)Tower\n(b)Prickle\n(c)Scurry\n(d)Toasters\n\n",
     "A group of Porcupines are Called?\n(a)Shoal\n(b)Troop\n(c)Prickle\n(d)Dazzle\n\n"
+    "A group of Lions are Called?\n(a)Den\n(b)Lions\n(c)Pride\n(d)Prides\n\n"
 ]
 
 questions = [
