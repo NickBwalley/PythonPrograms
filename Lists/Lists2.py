@@ -43,3 +43,14 @@ print(plist)
 new_phrase = ''.join(plist)
 print(new_phrase)
 print("----------------------------------------------")
+paranoid_android = "Nick Bwalley the Paranoid Android"
+letter = list(paranoid_android)
+for char in letter[:12]:
+    print('\t',char)
+print()
+for char in letter[13:25]:
+    print('\t'*2, char)
+print()
+for char in letter[-7:]:
+    print('\t'*3, char)
+print()
