@@ -20,7 +20,7 @@ friends.pop()#pops the last element of the list
 print(friends)
 print(friends.index("KeithLee"))#prints the index of the item in the list
 friends.append("RandyOrton")
-print(friends.count("RandyOrton"))#counts the number of elements are there in the list
+print(friends.count("RandyOrton"))#counts the number of times "RandyOrton" Appears in the List
 friends.sort()#sorts the list in alphabetical order
 print(friends)
 lucky_numbers.sort()#sorts the numbers in ascending order
