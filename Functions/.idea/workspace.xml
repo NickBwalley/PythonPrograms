@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3be2303-40ca-464b-9b5e-b7ca516e573e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bubble_Sort/NickFury.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_Sort/NickFury.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bubble_Sort/bubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Bubble_Sort/bubbleSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
