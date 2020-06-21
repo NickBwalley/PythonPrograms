@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d83e597-654d-423f-9be8-e073113f88d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d83e597-654d-423f-9be8-e073113f88d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.Lists2">
+  <component name="RunManager" selected="Python.lists_Functions">
     <configuration name="Lists2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lists" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lists2" />
         <item itemvalue="Python.lists_Functions" />
+        <item itemvalue="Python.Lists2" />
         <item itemvalue="Python.lists" />
       </list>
     </recent_temporary>
@@ -145,25 +143,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1591411257015">
+    <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1592736131496">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1591411257015" />
+    <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1592736131496" />
     <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693@0.27.1280.693" timestamp="1590361650380" />
-    <state width="1257" height="157" key="GridCell.Tab.0.center" timestamp="1591411257015">
+    <state width="1257" height="157" key="GridCell.Tab.0.center" timestamp="1592736131496">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1591411257015" />
+    <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1592736131496" />
     <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693@0.27.1280.693" timestamp="1590361650379" />
-    <state width="1257" height="157" key="GridCell.Tab.0.left" timestamp="1591411257015">
+    <state width="1257" height="157" key="GridCell.Tab.0.left" timestamp="1592736131496">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1591411257015" />
+    <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1592736131496" />
     <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693@0.27.1280.693" timestamp="1590361650379" />
-    <state width="1257" height="157" key="GridCell.Tab.0.right" timestamp="1591411257015">
+    <state width="1257" height="157" key="GridCell.Tab.0.right" timestamp="1592736131496">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1591411257015" />
+    <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1592736131496" />
     <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693@0.27.1280.693" timestamp="1590361650379" />
   </component>
 </project>
