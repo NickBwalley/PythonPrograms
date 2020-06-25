@@ -8,6 +8,7 @@ number_list = [
 #Accessing the elements inside the list
 print(number_list[0][0])#prints out 1
 print(number_list[0][1])#prints out 2
+print(number_list[0][2])#prints out 2
 print(number_list[1][1])#prints out 5
 print(number_list[3][0])#prints out 0
 #Using a NestedLoop to print the elements in the 2DList

@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d83e597-654d-423f-9be8-e073113f88d9" name="Default Changelist" comment="" />
+    <list default="true" id="8d83e597-654d-423f-9be8-e073113f88d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

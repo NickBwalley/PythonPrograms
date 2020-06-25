@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a41ad120-f766-4617-b2ea-4afcd80be672" name="Default Changelist" comment="" />
+    <list default="true" id="a41ad120-f766-4617-b2ea-4afcd80be672" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.WritingFiles">
+  <component name="RunManager" selected="Python.ReadingFiles">
     <configuration name="ReadingFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Reading_Files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WritingFiles" />
         <item itemvalue="Python.ReadingFiles" />
+        <item itemvalue="Python.WritingFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -121,21 +126,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1590885124642">
+    <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1593050771876">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590885124642" />
-    <state width="1257" height="157" key="GridCell.Tab.0.center" timestamp="1590885124642">
+    <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1593050771876" />
+    <state width="1257" height="157" key="GridCell.Tab.0.center" timestamp="1593050771876">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590885124642" />
-    <state width="1257" height="157" key="GridCell.Tab.0.left" timestamp="1590885124642">
+    <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1593050771876" />
+    <state width="1257" height="157" key="GridCell.Tab.0.left" timestamp="1593050771876">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590885124642" />
-    <state width="1257" height="157" key="GridCell.Tab.0.right" timestamp="1590885124642">
+    <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1593050771876" />
+    <state width="1257" height="157" key="GridCell.Tab.0.right" timestamp="1593050771876">
       <screen x="0" y="27" width="1280" height="693" />
     </state>
-    <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590885124642" />
+    <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1593050771876" />
   </component>
 </project>
