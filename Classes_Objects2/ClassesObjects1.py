@@ -2,9 +2,9 @@ class student:
     def __init__(self, first, last, email, std_no):
         self.first = first;
         self.last = last;
-        self.email = first + '.' + last + '@' + 'strathmore.edu'
+        self.email = first + '.' + last + '@strathmore.edu'
         self.std_no = std_no
-        
+
 student_1 = student()
 student_2 = student()
 
