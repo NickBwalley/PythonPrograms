@@ -1,3 +1,4 @@
+# PYTHON WORKING WITH CONSTRUCTORS AND PRINT OUT VALUES OF THE CONSTRUCTOR
 class heavyWeights:
     def __init__(self, name, wins, loss, draw):
         self.name = name
@@ -17,7 +18,7 @@ print (heavyWeights.the_legends(fighter_1))
 print(fighter_1.the_true_legends())
 print("----------------------------------")
 
-# Counting the number of objects created from a Class
+# PYTHON COUNTING THE NUMBER OF OBJECTS CREATED FROM THE CLASS
 class Students:
     count = 0
     def __init__(self):
@@ -44,3 +45,25 @@ class Student:
 
 myStudent = Student()
 myStudent.students_name("Nicholas")
+
+# PYTHON DEFAULT CONSTRUCTORS
+
+'''
+When we do not include the constructor in the class or forget to declare it,
+ then that becomes the default constructor.
+  It does not perform any task but initializes the objects. Consider the following example.
+'''
+print("----------------------------------")
+class lectures:
+    name = "Kevin Omondi"
+    unit = "IS Project"
+    supervisor = "Joseph Mungai"
+
+    def is_project(self):
+        return '{} {} {}'.format(self.name, self.unit, self.supervisor)
+
+lec = lectures()
+print(lectures.is_project(lec))
+print(lec.is_project())
+
+print("----------------------------------")
