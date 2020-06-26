@@ -67,3 +67,14 @@ print(lectures.is_project(lec))
 print(lec.is_project())
 
 print("----------------------------------")
+
+# PYTHON MORE THAN ONE CONSTRUCTOR IN A SINGLE CLASS
+'''Note: The constructor overloading is not allowed in Python.'''
+class singers:
+    def __init__(self):
+        print("This is the first constructor")
+    def __int__(self):
+        print("This is the second constructor")
+
+favorite_singer = singers()
+favorite_singer2 = singers()
