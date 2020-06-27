@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea59074-c284-42aa-b189-8c0ec86268e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Object_Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Object_Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reading_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reading_Files/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6ea59074-c284-42aa-b189-8c0ec86268e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
