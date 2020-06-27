@@ -63,4 +63,24 @@ class Animal:
         print("Hello ", name)
 dog = Animal()
 dog.dog_family("African wild Dog")
+print("***********************")
+# PYTHON DEFAULT CONSTRUCTOR
+class Employee:
+    emp_name = "John"
+    emp_id = 30403399
 
+    def print_details(self):
+        return 'Name: {} ID: {}'.format(self.emp_name, self.emp_id)
+
+emp_1 = Employee()
+print(emp_1.print_details())
+
+#PYTHON MULTIPLE CONSTRUCTORS
+
+class Student:
+    def __init__(self):
+        print("John is the best student in Class!..")# The first constructor of the class is going to be called
+    def __int__(self):
+        print("Nicholas is the best student in Class!..")
+
+st1 = Student()
