@@ -6,7 +6,8 @@ class student:
     def student_details(self):
         print("Name: %s, Age: %s, Gender: %s "%(self.student_name, self.student_age, self.student_gender))
 
-# <object-name> = <class-name>(<arguments>)
+# SYNTAX
+# <object-name> = <class-name>(<arguments>).
 std_1 = student()
 std_1.student_details()
 
