@@ -1,3 +1,14 @@
+'''
+PYTHON BUILT-IN CLASS FUNCTIONS
+The built-in functions defined in the class are described in the following table.
+
+SN	Function	Description
+1	getattr(obj,name,default)	It is used to access the attribute of the object.
+2	setattr(obj, name,value)	It is used to set a particular value to the specific attribute of an object.
+3	delattr(obj, name)	It is used to delete a specific attribute.
+4	hasattr(obj, name)	It returns true if the object contains some specific attribute.
+'''
+
 class Student:
     def __init__(self, name, age, grades):
         self.name = name
@@ -23,18 +34,3 @@ delattr(student_one, 'age')
 
 # printing all the values of the class constructor
 print('{}, {}'.format(student_one.name, student_one.grades))
-
-
-
-
-
-'''
-PYTHON BUILT-IN CLASS FUNCTIONS
-The built-in functions defined in the class are described in the following table.
-
-SN	Function	Description
-1	getattr(obj,name,default)	It is used to access the attribute of the object.
-2	setattr(obj, name,value)	It is used to set a particular value to the specific attribute of an object.
-3	delattr(obj, name)	It is used to delete a specific attribute.
-4	hasattr(obj, name)	It returns true if the object contains some specific attribute.
-'''
