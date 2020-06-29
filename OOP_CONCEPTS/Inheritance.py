@@ -84,3 +84,9 @@ class Derived(Calculation1, Calculation2, Calculation3):
 print(issubclass(Derived, Calculation3))
 print(issubclass(Calculation3, Calculation2))
 print("*******************************")
+
+'''
+The isinstance (obj, class) method
+The isinstance() method is used to check the relationship between the objects and classes. 
+It returns true if the first parameter, i.e., obj is the instance of the second parameter, i.e., class.
+'''
