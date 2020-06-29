@@ -59,3 +59,28 @@ print(d.subraction(20,10))
 print(d.multiplication(10,20))
 print(d.division(20,10))
 print("*******************************")
+
+'''
+The issubclass(sub,sup) method
+The issubclass(sub, sup) method is used to check the relationships between the specified classes.
+It returns true if the first class is the subclass of the second class, and false otherwise.
+'''
+class Calculation1:
+    def multiplication(self, a,b):
+        return a*b
+
+class Calculation2:
+    def summation(self, a, b):
+        return a+b
+
+class Calculation3:
+    def subtraction(self, a, b):
+        return a-b
+
+class Derived(Calculation1, Calculation2, Calculation3):
+    def division(self, a, b):
+        return a/b
+
+print(issubclass(Derived, Calculation3))
+print(issubclass(Calculation3, Calculation2))
+print("*******************************")
