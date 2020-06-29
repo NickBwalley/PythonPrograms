@@ -107,3 +107,18 @@ class Derived(Calculation2, Calculation1):
 d = Derived()
 print(isinstance(d, Derived)) # prints true if the object d is an instance of the class Derived
 print(isinstance(d, Calculation3)) # prints false
+
+print("*******************************")
+
+# METHOD OVER-RIDING
+class Animal:
+    def sound(self):
+        print("An Animal has no sound!..")
+
+class Dog(Animal):
+    def sound(self):
+        print("This is a Dog and it Barks!..")
+
+
+d1 = Dog()
+d1.sound()
