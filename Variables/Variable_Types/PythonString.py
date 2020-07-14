@@ -7,3 +7,5 @@ print(string * 2) # prints string two times in one time
 print(string + "BIIY") # prints the string concatenation operator 'NickBwalleyBIIY'
 print(string[:3]) # Prints 'Nic'
 print(string[:-1]) # prints reverse
+
+
