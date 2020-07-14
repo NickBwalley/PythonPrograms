@@ -1,3 +1,6 @@
+# This are basically Mutable lists
+# Declared using square braces[]
+
 '''
 WORKING WITH PYTHON LISTS
 '+' >> is the List Concatenation Operator
