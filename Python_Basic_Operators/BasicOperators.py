@@ -1,21 +1,5 @@
 '''
-Python Operators
-Operators are used to perform operations on variables and values.
-
-Python divides the operators in the following groups:
-
-Arithmetic operators
-Assignment operators
-Comparison operators
-Logical operators
-Identity operators
-Membership operators
-Bitwise operators
-
-'''
-# PYTHON ARITHMETIC OPERATORS
-'''
-Operator    	Name	
+Operator    	    Name
 +	Addition    	x + y	
 -	Subtraction	    x - y	
 *	Multiplication	x * y	
@@ -23,12 +7,13 @@ Operator    	Name
 %	Modulus	        x % y	
 **	Exponentiation	x ** y	
 //	Floor division	x // y
-
 '''
+
+'''PYTHON ARITHMETIC OPERATORS'''
 # a and b are operands
 a = 10
 b = 20
-'''PYTHON ARITHMETIC OPERATORS'''
+
 print(a+b) # Addition
 print(a-b) # Subtraction
 print(a/b) # Division
@@ -50,3 +35,24 @@ print(a>b) # False
 print(a<b) # true
 print(a>=b) # False
 print(a<=b) # True
+print("-------")
+'''PYTHON ASSIGNMENT OPERATORS'''
+a = 40
+b = 60
+
+c = a+b # assigns c to the operation a+b
+print(c)
+c += a # The same as c = c+a
+print(c)
+c -= a # The same as c = c+a
+print(c)
+c *= a # The same as c = c+a
+print(c)
+c /= a # The same as c = c+a
+print(c)
+###########
+print("----")
+a = 5
+b = 20
+b %=a # The same as b = b%a
+print(b)
