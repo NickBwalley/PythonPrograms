@@ -56,3 +56,7 @@ a = 5
 b = 20
 b %=a # The same as b = b%a
 print(b)
+a **=a # Means a = a**
+print(a)
+a //=a # performs a floor division and returns the value to the left operand
+print(a)
