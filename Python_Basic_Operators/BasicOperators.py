@@ -23,7 +23,7 @@ print(b**a) # Exponent (b=20 to the power a=10)
 a = 9
 b = 2
 print(a//b) # Floor Division
-print("--------")
+print("--------------------------------------------")
 ''' PYTHON COMPARISON OPERATOR'''
 a = 49
 b = 99
@@ -35,7 +35,7 @@ print(a>b) # False
 print(a<b) # true
 print(a>=b) # False
 print(a<=b) # True
-print("-------")
+print("--------------------------------------------")
 '''PYTHON ASSIGNMENT OPERATORS'''
 a = 40
 b = 60
@@ -51,7 +51,7 @@ print(c)
 c /= a # The same as c = c/a
 print(c)
 ###########
-print("----")
+print("--------------------------------------------")
 a = 5
 b = 20
 b %=a # The same as b = b%a
@@ -60,8 +60,9 @@ a **=a # Means a = a**
 print(a)
 a //=a # performs a floor division and returns the value to the left operand
 print(a)
-print("-----")
+print("--------------------------------------------")
 
+''' PYTHON MEMBERSHIP OPERATOR'''
 a = 10
 b = 20
 list = [1, 2, 3, 4, 5 ]
@@ -78,3 +79,25 @@ if ( a in list ):
     print ("Line 3 - a is available in the given list")
 else:
     print ("Line 3 - a is not available in the given list")
+print("--------------------------------------------")
+
+''' PYTHON IDENTITY OPERATOR'''
+a = 20
+b = 20
+if ( a is b ):
+    print ("Line 1 - a and b have same identity")
+else:
+    print ("Line 1 - a and b do not have same identity")
+if ( id(a) == id(b) ):
+    print ("Line 2 - a and b have same identity")
+else:
+    print ("Line 2 - a and b do not have same identity")
+b = 30
+if ( a is b ):
+    print ("Line 3 - a and b have same identity")
+else:
+    print ("Line 3 - a and b do not have same identity")
+if ( a is not b ):
+    print ("Line 4 - a and b do not have same identity")
+else:
+    print ("Line 4 - a and b have same identity")
