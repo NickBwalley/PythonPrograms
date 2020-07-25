@@ -101,3 +101,32 @@ if ( a is not b ):
     print ("Line 4 - a and b do not have same identity")
 else:
     print ("Line 4 - a and b have same identity")
+print("--------------------------------------------")
+
+''' PYTHON OPERATORS PRECEDENCE'''
+'''
+Operator            Description
+** Exponentiation   (raise to the power)
+~ + - Ccomplement,  unary plus and minus (method names for the last two are +@ and -@)
+* / % //            Multiply, divide, modulo and floor division
++ -                 Addition and subtraction
+>> <<               Right and left bitwise shift
+&                   Bitwise 'AND'
+^ |                 Bitwise exclusive `OR' and regular `OR'
+<= < > >=           Comparison operators
+<> == !=            Equality operators
+= %= /= //= -= +=
+*= **=              Assignment operators
+is, is not          Identity operators
+in, not in          Membership operators
+not or and          Logical operators
+
+Operator precedence affects how an expression is evaluated.
+For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has
+higher precedence than +, so it first multiplies 3*2 and then adds into 7.
+'''
+a = 20
+b = 10
+c = 15
+d = 5
+e = 0
