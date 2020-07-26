@@ -86,6 +86,63 @@ print(tup + tup)
 print(tup * 3)
 
 # Adding value to tup. It will throw an error.
-t[2] = "hi"
+# t[2] = "hi"
 
 print("-----------------------------------------")
+# DICTIONARY
+# Dictionary is an unordered set of a key-value pair of items.
+# It is like an associative array or a hash table where each key stores a specific value.
+# Key can hold any primitive data type, whereas value is an arbitrary Python object.
+#
+# The items in the dictionary are separated with the comma (,) and enclosed in the curly braces {}.
+d = {
+    1: 'Jimmy',
+    2: 'Alex',
+    3: 'john',
+    4: 'mike'
+}
+
+# Printing dictionary
+print(d)
+
+# Accesing value using keys
+print("1st name is " + d[1])
+print("2nd name is " + d[4])
+
+print(d.keys())
+print(d.values())
+
+print("-----------------------------------------")
+# Boolean
+# Boolean type provides two built-in values, True and False. These values are used to determine the given
+# statement true or false. It denotes by the class bool.
+# True can be represented by any non-zero value or 'T' whereas false can be represented by the 0 or 'F'.
+# Consider the following example.
+# Python program to check the boolean type
+print(type(True))
+print(type(False))
+
+print("-----------------------------------------")
+# Python Set is the unordered collection of the data type. It is iterable,
+# mutable(can modify after creation), and has unique elements. In set, the order of
+# the elements is undefined; it may return the changed sequence of the element.
+# The set is created by using a built-in function set(), or a sequence of
+# elements is passed in the curly braces and separated by the comma.
+# It can contain various types of values. Consider the following example.
+
+# Creating Empty set
+set1 = set()
+
+set2 = {'James', 2, 3, 'Python'}
+
+# Printing Set value
+print(set2)
+
+# Adding element to the set
+
+set2.add(10)
+print(set2)
+
+# Removing element from the set
+set2.remove(2)
+print(set2)
