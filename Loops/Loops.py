@@ -32,4 +32,10 @@ for i in range(0,rows+1):
     for j in range(i):
         print("*",end = '')
     print()
+print("-------BreakStatement-------")
+# Using else statement with a for-Loop
+for i in range(0,5):
+    print(i)
+else:
+    print("End of the Print Statement")
 print("------------------------------------")
