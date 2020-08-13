@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="630db402-8ecf-40ce-84a9-e70db7476c8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2DListsAndNestedLoops/2DLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reading_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reading_Files/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="630db402-8ecf-40ce-84a9-e70db7476c8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +73,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,21 +100,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1257" height="157" key="GridCell.Tab.0.bottom" timestamp="1590980622393">
-      <screen x="0" y="27" width="1280" height="693" />
+    <state width="1343" height="172" key="GridCell.Tab.0.bottom" timestamp="1597323956945">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1257" height="157" key="GridCell.Tab.0.bottom/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590980622393" />
-    <state width="1257" height="157" key="GridCell.Tab.0.center" timestamp="1590980622393">
-      <screen x="0" y="27" width="1280" height="693" />
+    <state width="1343" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597323956945" />
+    <state width="1343" height="172" key="GridCell.Tab.0.center" timestamp="1597323956945">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1257" height="157" key="GridCell.Tab.0.center/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590980622393" />
-    <state width="1257" height="157" key="GridCell.Tab.0.left" timestamp="1590980622393">
-      <screen x="0" y="27" width="1280" height="693" />
+    <state width="1343" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1597323956945" />
+    <state width="1343" height="172" key="GridCell.Tab.0.left" timestamp="1597323956944">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1257" height="157" key="GridCell.Tab.0.left/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590980622393" />
-    <state width="1257" height="157" key="GridCell.Tab.0.right" timestamp="1590980622393">
-      <screen x="0" y="27" width="1280" height="693" />
+    <state width="1343" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1597323956944" />
+    <state width="1343" height="172" key="GridCell.Tab.0.right" timestamp="1597323956945">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1257" height="157" key="GridCell.Tab.0.right/0.27.1280.693/0.27.1280.693@0.27.1280.693" timestamp="1590980622393" />
+    <state width="1343" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1597323956945" />
   </component>
 </project>
