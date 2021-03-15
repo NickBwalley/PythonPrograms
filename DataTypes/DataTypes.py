@@ -17,7 +17,7 @@ print("The type of b", type(b))
 c = 1 + 3j
 print("The type of c", type(c))
 print(" c is a complex number", isinstance(1 + 3j, complex))
-
+print()
 # In the case of string handling, the operator +
 # is used to concatenate two strings as the operation "hello"+" python" returns "hello python".
 # The operator * is known as a repetition operator as the operation "Python" *2 returns 'Python Python'.
@@ -28,17 +28,18 @@ s = '''A multiline
 string'''
 print(s)
 
-n = '''nickbwalley'''
+n = '''nick
+bwalley'''
 print(n)
 
 print("-----------------------------------------")
 # STRINGS
-str1 = 'hello javatpoint' # string str1
-str2 = ' how are you' # string str2
-print(str1[0:2]) # printing first two character using slice operator
-print(str1[4]) # printing 4th character of the string
-print(str1*2) # printing the string twice
-print(str1 + str2) # printing the concatenation of str1 and str2
+str1 = 'hello javatpoint'  # string str1
+str2 = ' how are you'  # string str2
+print(str1[0:2])  # printing first two character using slice operator
+print(str1[4])  # printing 4th character of the string
+print(str1*2)  # printing the string twice
+print(str1 + str2)  # printing the concatenation of str1 and str2
 
 print("-----------------------------------------")
 
@@ -146,3 +147,23 @@ print(set2)
 # Removing element from the set
 set2.remove(2)
 print(set2)
+print("-------------------------------------------")
+'''frozenset()'''
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x))
+print("-------------------------------------------")
+'''boolean/ bytes'''
+x = True
+print(x)
+x = b"hello"
+print(x)
+print(type(x))
+print("-------------------------------------------")
+'''bytearray/ memory  view'''
+x = bytearray(5)
+print(x)
+print(type(x))
+x = memoryview(bytes(5))
+print(x)
+print(type(x))
