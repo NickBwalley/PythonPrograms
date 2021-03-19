@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_Programs.iml" filepath="$PROJECT_DIR$/.idea/Python_Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sets/.idea/Sets.iml" filepath="$PROJECT_DIR$/sets/.idea/Sets.iml" />
       <module fileurl="file://$PROJECT_DIR$/booleans/.idea/booleans.iml" filepath="$PROJECT_DIR$/booleans/.idea/booleans.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sets/.idea/sets.iml" filepath="$PROJECT_DIR$/sets/.idea/sets.iml" />
     </modules>
   </component>
 </project>

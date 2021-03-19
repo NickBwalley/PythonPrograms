@@ -7,6 +7,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="booleans" />
-    <orderEntry type="module" module-name="sets" />
+    <orderEntry type="module" module-name="Sets" />
   </component>
 </module>
