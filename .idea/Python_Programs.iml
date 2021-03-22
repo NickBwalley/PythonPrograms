@@ -6,8 +6,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="booleans" />
+    <orderEntry type="module" module-name="Booleans" />
     <orderEntry type="module" module-name="Sets" />
     <orderEntry type="module" module-name="Lamda" />
+    <orderEntry type="module" module-name="Arrays" />
   </component>
 </module>
