@@ -50,6 +50,9 @@ A parameter is the variable listed inside the parentheses in the function defini
 
 An argument is the value that is sent to the function when it is called.
 
+Parameter is variable in the declaration of function. 
+Argument is the actual value of this variable that gets passed to function.
+
 """
 
 
@@ -110,7 +113,7 @@ This way the function will receive a dictionary of arguments, and can access the
 """
 
 
-# Arbitrary Kword Arguments are often shortened to **kwargs in Python documentations.
+# Arbitrary Keyword Arguments are often shortened to **kwargs in Python documentations.
 def my_kids(**kids):
     print("His last name is: " + kids["l_name"])
 
@@ -166,6 +169,15 @@ def multiply_by_itself(x):
 print(multiply_by_itself(3))  # multiplies by itself
 
 
+# function to find the cube of a number
+def find_cube(number):
+    result = number*number*number
+    return result
+
+
+print(find_cube(9))
+
+print()
 """
 The pass Statement
 function definitions cannot be empty, but if you for 
