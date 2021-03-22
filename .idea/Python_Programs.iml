@@ -3,12 +3,14 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Variables1/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Arrays/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Booleans" />
     <orderEntry type="module" module-name="Sets" />
     <orderEntry type="module" module-name="Lamda" />
+    <orderEntry type="module" module-name="Arrays" />
     <orderEntry type="module" module-name="Arrays" />
   </component>
 </module>
