@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="booleans" />
     <orderEntry type="module" module-name="Sets" />
+    <orderEntry type="module" module-name="Lamda" />
   </component>
 </module>
