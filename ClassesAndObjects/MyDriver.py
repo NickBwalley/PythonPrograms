@@ -1,4 +1,4 @@
-class bestDriver:
+class BestDriver:
     def __init__(self, name, age, car_brand):
         self.name = name
         self.age = age
