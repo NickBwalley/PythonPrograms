@@ -12,13 +12,16 @@ SN	Attribute	Description
 5	__bases__	It contains a tuple including all base classes.
 '''
 
+
 class Student:
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
         self.gender = gender
+
     def student_details(self):
         print("Name %s, Age %s, Gender %s", self.name, self.age, self.gender)
+
 
 st_1 = Student("Nicholas", 20, "Male")
 print(st_1.__doc__)
