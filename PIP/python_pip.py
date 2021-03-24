@@ -54,5 +54,27 @@ Modules are Python code libraries you can include in your project.
 # Import the "camelcase" package into your project.
 
 # Import and use "camelcase":
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
+# This method capitalizes the first letter of each word.
 
 
+# Find Packages
+# Find more packages at https://pypi.org/.
+
+# Remove a Package
+# Use the uninstall command to remove a package:
+
+# Example
+# pip3 uninstall camelcase
+# The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
+# Press y and the package will be removed.
+
+# List Packages
+# Use the list command to list all the packages installed on your system:
+# pip3 list
