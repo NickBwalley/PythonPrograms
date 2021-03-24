@@ -14,5 +14,6 @@
     <orderEntry type="module" module-name="Arrays" />
     <orderEntry type="module" module-name="Iterators" />
     <orderEntry type="module" module-name="Scope" />
+    <orderEntry type="module" module-name="Dates" />
   </component>
 </module>
