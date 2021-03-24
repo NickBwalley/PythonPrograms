@@ -1,5 +1,5 @@
-from SpecialFood import Food
-from ChefName import ChefName
+from special_food import Food
+from chef_name import ChefName
 myFood = Food()
 myFood.make_chicken()
 myFood.make_beef()
