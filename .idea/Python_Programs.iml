@@ -12,5 +12,6 @@
     <orderEntry type="module" module-name="Lamda" />
     <orderEntry type="module" module-name="Arrays" />
     <orderEntry type="module" module-name="Arrays" />
+    <orderEntry type="module" module-name="Iterators" />
   </component>
 </module>

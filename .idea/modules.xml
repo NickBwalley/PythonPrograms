@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/.idea/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/.idea/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Booleans/.idea/Booleans.iml" filepath="$PROJECT_DIR$/Booleans/.idea/Booleans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iterators/.idea/Iterators.iml" filepath="$PROJECT_DIR$/Iterators/.idea/Iterators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lamda/.idea/Lamda.iml" filepath="$PROJECT_DIR$/Lamda/.idea/Lamda.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_Programs.iml" filepath="$PROJECT_DIR$/.idea/Python_Programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/sets/.idea/Sets.iml" filepath="$PROJECT_DIR$/sets/.idea/Sets.iml" />
