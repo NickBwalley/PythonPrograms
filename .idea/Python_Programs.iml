@@ -17,5 +17,6 @@
     <orderEntry type="module" module-name="Dates" />
     <orderEntry type="module" module-name="Maths" />
     <orderEntry type="module" module-name="JSON" />
+    <orderEntry type="module" module-name="RegularExpression" />
   </component>
 </module>
