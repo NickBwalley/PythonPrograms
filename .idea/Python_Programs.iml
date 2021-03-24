@@ -19,5 +19,6 @@
     <orderEntry type="module" module-name="JSON" />
     <orderEntry type="module" module-name="RegularExpression" />
     <orderEntry type="module" module-name="PIP" />
+    <orderEntry type="module" module-name="StringFormatting" />
   </component>
 </module>

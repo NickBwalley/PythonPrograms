@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/RegularExpression/.idea/RegularExpression.iml" filepath="$PROJECT_DIR$/RegularExpression/.idea/RegularExpression.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scope/.idea/Scope.iml" filepath="$PROJECT_DIR$/Scope/.idea/Scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/sets/.idea/Sets.iml" filepath="$PROJECT_DIR$/sets/.idea/Sets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringFormatting/.idea/StringFormatting.iml" filepath="$PROJECT_DIR$/StringFormatting/.idea/StringFormatting.iml" />
     </modules>
   </component>
 </project>
