@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/.idea/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/.idea/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Booleans/.idea/Booleans.iml" filepath="$PROJECT_DIR$/Booleans/.idea/Booleans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Casting/.idea/Casting.iml" filepath="$PROJECT_DIR$/Casting/.idea/Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dates/.idea/Dates.iml" filepath="$PROJECT_DIR$/Dates/.idea/Dates.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileHandling/.idea/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/.idea/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Iterators/.idea/Iterators.iml" filepath="$PROJECT_DIR$/Iterators/.idea/Iterators.iml" />
