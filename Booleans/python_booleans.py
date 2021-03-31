@@ -43,21 +43,27 @@ print(bool(()))
 print(bool([]))
 print(bool({}))
 print("----------")
+
+
 # One more value, or object in this case, evaluates to False, and that is if
 # you have an object that is made from a class with a __len__ function that returns 0 or False:
-class myclass():
-  def __len__(self):
-    return 0
+class MyClass:
+    def __len__(self):
+        return 0
 
 
-my_obj = myclass()
+my_obj = MyClass()
 print(bool(my_obj))
+
+
 # function returns boolean
 def my_function():
     return True
 
 
 print(my_function())
+
+
 # You can execute code based on the Boolean answer of a function:
 def my_function2():
     return True
