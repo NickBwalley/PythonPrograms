@@ -1,19 +1,19 @@
 """
-Python divides the operators in the following groups:
+Python divides the Operators in the following groups:
 
-Arithmetic operators
-Assignment operators
-Comparison operators
-Logical operators
-Identity operators
-Membership operators
-Bitwise operators
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+Logical Operators
+Identity Operators
+Membership Operators
+Bitwise Operators
 
 """
 
 """PYTHON ARITHMETIC OPERATORS"""
 """
-Arithmetic operators are used with numeric values to perform common mathematical operations:
+Arithmetic Operators are used with numeric values to perform common mathematical operations:
 Operator	Name	        Example	
 +	        Addition	    x + y	
 -	        Subtraction	    x - y	
@@ -27,7 +27,7 @@ Operator	Name	        Example
 """PYTHON ASSIGNMENT OPERATOR"""
 
 """
-Assignment operators are used to assign values to variables:
+Assignment Operators are used to assign values to variables:
 Operator	Example	Same As	
 =	        x = 5	x = 5	
 +=	        x += 3	x = x + 3	
@@ -47,7 +47,7 @@ Operator	Example	Same As
 """PYTHON COMPARISON OPERATOR"""
 
 """
-Comparison operators are used to compare two values:
+Comparison Operators are used to compare two values:
 
 Operator	Name	        Example	
 ==	        Equal	        x == y	
@@ -61,7 +61,7 @@ Operator	Name	        Example
 """PYTHON LOGICAL OPERATORS"""
 
 """
-Logical operators are used to combine conditional statements:
+Logical Operators are used to combine conditional statements:
 
 Operator	Description	Example	
 and 	    Returns True if both statements are true	x < 5 and  x < 10	
@@ -72,7 +72,7 @@ not	        Reverse the result, returns False if the result is true	not(x < 5 an
 """PYTHON IDENTITY OPERATORS"""
 
 """ 
-Identity operators are used to compare the objects, not if they are equal, 
+Identity Operators are used to compare the objects, not if they are equal, 
 but if they are actually the same object, with the same memory location:
 
 Operator	Description	Example	
@@ -83,7 +83,7 @@ is not	Returns True if both variables are not the same object	x is not y
 """
 Python Membership Operators
 
-Membership operators are used to test if a sequence is presented in an object:
+Membership Operators are used to test if a sequence is presented in an object:
 
 Operator	Description	Example	
 in 	    Returns True if a sequence with the specified value is present in the object	x in y	
@@ -91,7 +91,7 @@ not in	Returns True if a sequence with the specified value is not present in the
 """
 """
 Python Bitwise Operators
-Bitwise operators are used to compare (binary) numbers:
+Bitwise Operators are used to compare (binary) numbers:
 
 Operator	Name	Description
 & 	AND	Sets each bit to 1 if both bits are 1
@@ -159,7 +159,7 @@ print("--------------------------------------------")
 a = 10
 b = 20
 list = [1, 2, 3, 4, 5 ]
-if ( a in list ):
+if  a in list :
     print ("Line 1 - a is available in the given list")
 else:
     print ("Line 1 - a is not available in the given list")
@@ -206,13 +206,13 @@ Operator            Description
 >> <<               Right and left bitwise shift
 &                   Bitwise 'AND'
 ^ |                 Bitwise exclusive `OR' and regular `OR'
-<= < > >=           Comparison operators
-<> == !=            Equality operators
+<= < > >=           Comparison Operators
+<> == !=            Equality Operators
 = %= /= //= -= +=
-*= **=              Assignment operators
-is, is not          Identity operators
-in, not in          Membership operators
-not or and          Logical operators
+*= **=              Assignment Operators
+is, is not          Identity Operators
+in, not in          Membership Operators
+not or and          Logical Operators
 
 Operator precedence affects how an expression is evaluated.
 For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has

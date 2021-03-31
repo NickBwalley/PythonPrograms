@@ -47,7 +47,7 @@ print(str1 + str2)  # printing the concatenation of str1 and str2
 print("-----------------------------------------")
 
 # LISTS
-# We can use slice [:] operators to access the data of the list.
+# We can use slice [:] Operators to access the data of the list.
 # The concatenation operator (+) and repetition operator (*) works with the list in the same way as they
 # were working with the strings.
 list1 = [1, "hi", "Python", 2]
