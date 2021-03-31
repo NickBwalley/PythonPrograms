@@ -1,6 +1,9 @@
-'''Python is a dynamically typed language;
+"""
+Python is a dynamically typed language;
  hence we do not need to define the type of the variable while declaring it.
- The interpreter implicitly binds the value with its type. '''
+ The interpreter implicitly binds the value with its type.
+
+ """
 a=10
 b="Hi Python"
 c = 10.5
