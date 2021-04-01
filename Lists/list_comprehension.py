@@ -14,11 +14,14 @@ for x in thislist:
     if "a" in x:
         newlist.append(x)
 print(newlist)
+print()
 # USING LIST COMPREHENSION
 # with list comprehension you can do that with only one line of code
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+print(fruits)
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
+print()
 # syntax
 # newlist = [expression for item in iterable if condition == True]
 # The return value is a new list, leaving the old list unchanged.
@@ -27,9 +30,11 @@ print(newlist)
 newlist = [x for x in range(10)] # prints value from 0-9
 print(newlist)
 newlist = [x.upper() for x in fruits]
-print(newlist) # sets value in new list to upper case
+print(newlist)  # sets value in new list to upper case
 newlist = ["hello" for x in fruits] # sets all values in new list to hello
 print(newlist)
+print()
+print(fruits)  # print the values of the fruits list
 # "Return the item if it is not banana, if it is banana return orange".
 newlist = [x if x!= "banana" else "orange" for x in fruits]
 print(newlist)
