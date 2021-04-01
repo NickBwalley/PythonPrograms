@@ -1,12 +1,11 @@
-
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-print(thislist) # original list
-thislist[1] = ["blackcurrant"] # change item value
-print(thislist)
-thislist[1:3] = ["Lemon", "Watermelon"] # change range of item values
-print(thislist)
-thislist[1:2] = ["pears", "brocolli"] # change the [1] index element  with the second value
-print(thislist)
+this_list = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+print(this_list) # original list
+this_list[1] = ["blackcurrant"] # change item value
+print(this_list)
+this_list[1:3] = ["Lemon", "Watermelon"] # change range of item values
+print(this_list)
+this_list[1:2] = ["pears", "brocolli"] # change the [1] index element  with the second value
+print(this_list)
 print("------------------")
 # creating a new list
 list2 = ["apple", "banana"]
@@ -29,6 +28,6 @@ print(list2)
 list2.pop(0) # NOTE: If you don't specify the index the pop() removes the last item
 print(list2)
 # delete element in a list
-del thislist[0]
-print(thislist)
+del this_list[0]
+print(this_list)
 # del() -> can also delete the list completely
