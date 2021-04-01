@@ -1,5 +1,5 @@
 vowels = ['a','e','i','o','u']
-#name = input("What is your Name? ")
+# name = input("What is your Name? ")
 name = "Nicholas Bwalley"
 found = [] #creating an empty list
 for letter in name:
@@ -28,11 +28,13 @@ print(new_phrase)
 print("---------------------")
 phrase  = "Don't panic!"
 print(phrase)
+print()
 plist = list(phrase)
 print(plist)
 for i in range(4):
     plist.pop()
     print(plist)
+print()
 plist.pop(0)
 print(plist)
 plist.remove("'")
