@@ -13,7 +13,7 @@ this_list.extend(tropical)
 print(this_list)
 # add iterables to the list
 # The extend() method does not have to append lists,
-# you can add any iterable object (tuples, sets, dictionaries etc.)
+# you can add any iterable object (tuples, Sets, dictionaries etc.)
 this_list = ["apple", "banana", "cherry"]
 this_tuple = ("kiwi", "orange")
 this_list.extend(this_tuple)

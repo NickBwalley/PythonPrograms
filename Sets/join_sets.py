@@ -1,11 +1,11 @@
 """
 Join Two Sets
-There are several ways to join two or more sets in Python.
+There are several ways to join two or more Sets in Python.
 
-You can use the union() method that returns a new set containing all items from both sets,
+You can use the union() method that returns a new set containing all items from both Sets,
 or the update() method that inserts all the items from one set into another:
 """
-# The union() method returns a new set with all items from both sets:
+# The union() method returns a new set with all items from both Sets:
 set1 = {"a", "b", "c"}
 set2 = {1, 2, 3}
 
@@ -23,7 +23,7 @@ print()
 
 """
 Keep ONLY the Duplicates
-The intersection_update() method will keep only the items that are present in both sets.
+The intersection_update() method will keep only the items that are present in both Sets.
 """
 # Keep the items that exist in both set x, and set y:
 x = {"apple", "banana", "cherry"}
@@ -34,7 +34,7 @@ x.intersection_update(y)
 print(x)
 print()
 # The intersection() method will return a new set,
-# that only contains the items that are present in both sets.
+# that only contains the items that are present in both Sets.
 # Return a set that contains the items that exist in both set x, and set y:
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
@@ -46,9 +46,9 @@ print()
 
 """
 Keep All, But NOT the Duplicates
-The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
+The symmetric_difference_update() method will keep only the elements that are NOT present in both Sets.
 """
-# keep the items that are not present in both sets
+# keep the items that are not present in both Sets
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 
@@ -58,9 +58,9 @@ print(x)
 print()
 """
 The symmetric_difference() 
-method will return a new set, that contains only the elements that are NOT present in both sets.
+method will return a new set, that contains only the elements that are NOT present in both Sets.
 """
-# Return a set that contains all items from both sets, except items that are present in both:
+# Return a set that contains all items from both Sets, except items that are present in both:
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 

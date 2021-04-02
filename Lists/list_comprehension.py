@@ -30,8 +30,8 @@ print(newlist)
 newlist = [x for x in range(10)] # prints value from 0-9
 print(newlist)
 newlist = [x.upper() for x in fruits]
-print(newlist)  # sets value in new list to upper case
-newlist = ["hello" for x in fruits] # sets all values in new list to hello
+print(newlist)  # Sets value in new list to upper case
+newlist = ["hello" for x in fruits] # Sets all values in new list to hello
 print(newlist)
 print()
 print(fruits)  # print the values of the fruits list

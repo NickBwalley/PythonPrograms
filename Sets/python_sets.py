@@ -36,7 +36,7 @@ Sets cannot have two items with the same value.
 this_set = {"apple", "banana", "cherry", "apple"}
 print(this_set)  # prints elements of the set and ignores the duplicate element of the set
 print(len(this_set))  # get the length of a set
-# sets can be of any datatype
+# Sets can be of any datatype
 # A set with strings, integers and boolean values:
 set1 = {"abc", 34, True, 40, "male"}
 
