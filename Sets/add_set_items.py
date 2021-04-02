@@ -23,11 +23,11 @@ permitting it to be iterated over in a for-loop. Familiar examples of iterables 
 # Add Any Iterable
 # The object in the update() method does not have be a set,
 # it can be any iterable object (tuples, lists, dictionaries etc.).
-thisset = {"apple", "banana", "cherry"}
-mylist = ["kiwi", "orange"]
+this_set = {"apple", "banana", "cherry"}
+my_list = ["kiwi", "orange"]
 
-thisset.update(mylist)
+this_set.update(my_list)
 
-print(thisset)
+print(this_set)
 
 
