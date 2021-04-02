@@ -51,9 +51,9 @@ tuple3 = (True, False, False)
 tuple4 = ("abc", 34, True, 40, "male")
 # The tuple() Constructor
 # It is also possible to use the tuple() constructor to make a tuple.
-thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+this_tuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 my_tuple = tuple("apple")
-print(thistuple)
+print(this_tuple)
 print(my_tuple)  # prints each letter of the tuple since it has only one element in the tuple
 
 """
