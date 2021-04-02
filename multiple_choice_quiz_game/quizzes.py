@@ -1,4 +1,4 @@
-from Question import Question
+from questions import Question
 
 question_prompts = [
     "A group of Squirrels are Called?\n(a)Drury\n(b)Spike\n(c)Scarlet\n(d)Scurry\n\n",
@@ -16,6 +16,7 @@ questions = [
 
 ]
 
+
 def run_test(questions):
     score = 0
     for qtn in questions:
@@ -23,6 +24,7 @@ def run_test(questions):
         if answer == qtn.answer:
             score += 1
     print("You Scored: " + str(score) + "/" + str(len(questions)))
+
 
 run_test(questions)
 
