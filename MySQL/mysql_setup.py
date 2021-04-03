@@ -4,3 +4,7 @@
 # sudo apt install mysql-server
 # mysql --version (confirm that mysql has been installed)
 
+# sudo mysql_secure_installation (mysql set up)
+# New Password: nick.mysql
+
+
