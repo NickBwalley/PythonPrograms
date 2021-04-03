@@ -7,4 +7,11 @@
 # sudo mysql_secure_installation (mysql set up)
 # New Password: nick.mysql
 
+# sudo mysql -u root (go to mysql console)
+# mysql-> show databases;
+# mysql-> create database linuxhint; # create a new database
+# mysql-> quit # bye
+
+
+
 
