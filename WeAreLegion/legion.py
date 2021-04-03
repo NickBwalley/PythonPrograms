@@ -1,6 +1,0 @@
-print("Knowldge is Free!..")
-print("We Are Anonymous!..")
-print("We Are Legion!..")
-print("We Do Not Forgive!..")
-print("We Do Not Forget!..")
-print("Expect us!..")
