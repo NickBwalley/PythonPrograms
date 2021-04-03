@@ -22,5 +22,6 @@
     <orderEntry type="module" module-name="StringFormatting" />
     <orderEntry type="module" module-name="FileHandling" />
     <orderEntry type="module" module-name="Casting" />
+    <orderEntry type="module" module-name="we_are_legion" />
   </component>
 </module>
