@@ -92,4 +92,86 @@ First, start the MySQL shell by running the following command as sudo:
 
 $ sudo mysql
 This will start the MySQL shell so you can work on the MySQL prompt.
+
 ----------------------------------------------------------------------------------------------------------
+Step 2: Check authentication method for MySQL users
+At the MySQL prompt, enter the following command, which will allow you to check the authentication method
+/plugin that all of your MySQL accounts are currently using:
+
+mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+In the above output, you can see that root uses the auth-socket plugin for authentication by default.
+
+----------------------------------------------------------------------------------------------------------
+Step 3: Change the authentication method for root
+Our goal is to have the root user authenticate to MySQL with a password. To do this, run the following command,
+which will have the root user identified by a mysql_native_password.
+Please remember that this password must be very strong.
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+Change authentication method for root user
+From now on, your root user will no longer have the password you specified when running the provided security script,
+but the strong password you specified in the above command.
+
+----------------------------------------------------------------------------------------------------------
+Step 4: Reload grant tables
+Now it’s time to tell the server to use the new permission settings from now on.
+Run the following command at the MySQL command prompt to reload the grant tables and register your changes:
+
+mysql> FLUSH PRIVILEGES;
+
+----------------------------------------------------------------------------------------------------------
+Step 5: Recheck authentication method for MySQL users
+Now, if you recheck the authentication method for your MySQL user accounts using the following command,
+you will see that your root user is now using the mysql_native_password plugin for authentication:
+
+mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+Recheck authentication method
+
+Now that your root user is set up to connect to the MySQL shell with a secure password,
+you can exit the shell with the exit command as follows:
+
+mysql> exit
+
+==========================================================================================================
+
+Testing if MySQL is running
+To test whether MySQL is running on your system or not, you can use one of the following methods:
+
+Method 1: Check the status of mysql.service
+After you install MySQL on your system, mysql.service should most likely be running automatically.
+The output of the following command should verify the active status of the service:
+
+$ systemctl status mysql.service
+
+--------------------------------------------------------------------------------------------------------
+If for some reason the service is not running, you can use the following command as sudo to start the service:
+
+$ sudo systemctl start mysql
+
+--------------------------------------------------------------------------------------------------------
+You can use the following command to stop the service again if needed:
+
+$ sudo systemctl stop mysql
+
+--------------------------------------------------------------------------------------------------------
+
+Method 2: By connecting to MySQL Admin as root and running any administrative command
+MySQL Admin is a client that allows you to perform administrative operations on MySQL.
+As an example, let’s run one of the administrative commands over it to check if the
+system is running properly and our root is configured to do so.
+
+$ sudo mysqladmin -p -u root version
+
+This command is to connect to MySQL as root, get the root password,
+and then return the MySQL admin version number.
+
+Check MySQL version with mysqladmin command
+
+If the command does what it is supposed to do and produces output similar to the above,
+you can be sure that your MySQL is up and running.
+The process of installing and setting up MySQL on Ubuntu may seem cumbersome to some, especially
+when using the command line. However, if you carefully follow the above steps one by one,
+you will have no problems having a reliable, secure and stable installation of MySQL running on your Ubuntu.
