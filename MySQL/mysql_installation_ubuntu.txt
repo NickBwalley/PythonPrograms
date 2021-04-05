@@ -16,7 +16,7 @@ Finally test that MySQL is running
 
 We have run the commands and procedures mentioned in this article on an Ubuntu 20.04 LTS system
 
-
+------------------------------------------------------------------------------------------------------
 
 MySQL installation and security configuration
 
@@ -24,10 +24,72 @@ In this section, we describe how to install MySQL from the Ubuntu command line a
 
 You can open the Ubuntu command line, the terminal, either from the application launcher search bar or
 by pressing Ctrl+Alt+T.
-
+------------------------------------------------------------------------------------------------------
 Step 1: Update repository index
 To install the latest available version of a software from the Internet repositories,
 your local repository index must match it. Run the following command as sudo to update your
 local repository index:
 
 $ sudo apt-get update
+
+------------------------------------------------------------------------------------------------------
+Step 2: Install MySQL server with apt
+Please run the following command as sudo to install MySQL from APT repositories.
+
+$ sudo apt-get install mysql-server
+Please note that only an authorized user on Ubuntu can add, remove and configure software.
+
+Install MySQL server package
+
+The system may ask you for the password for sudo and also offer you a Y/n option to continue the installation.
+ Type Y and then press Enter; MySQL will then be installed on your system. However,
+ the process may take some time depending on your internet speed.
+
+------------------------------------------------------------------------------------------------------
+Step 3: Verify the installation (optional)
+You can verify your MySQL installation and also check the version number by running the following command in your terminal:
+
+$ mysql --version
+
+------------------------------------------------------------------------------------------------------
+Step 4: Make security configurations by running the provided security script
+Whenever you install a new copy of MySQL, there are some default settings that you should change to
+increase the security of your MySQL installation. These include removing test users, test databases,
+and allowing remote login by a root user.
+
+Run the following command as sudo to start the security script:
+
+$ sudo mysql_secure_installation
+
+When you run this command, the first thing you will be prompted to do is set up the Validate Password plugin.
+This allows you to set a secure password for root, depending on the strength of the password you want to choose.
+Type Y to start the Validate Password plugin and you will get the following prompt:
+Password validation policy level
+Enter the number of your choice for the password strength and press Enter.
+ The system will then ask you for the new password of root.
+ Type the password and retype it at the following prompts.
+
+Set MySQL root password
+The system will then display the strength of the password you provided and also ask you
+if you want to continue with the password.
+Password strength
+Type Y for Yes and press Enter.
+The system will now ask you a series of questions, one at a time, and you can set the security of your
+system depending on your answers to these questions.
+
+Series of questions:
+
+===========================================================================================================
+Configuring root to use the MySQL shell
+When running the security script, you specified a password for root. However, this user
+is not allowed to connect to MySQL Shell with the same password. You can configure root to use
+MySQL Shell by changing its authentication method from the default “auth_socket” to “mysql_native_password”.
+
+Here’s how to do it:
+
+Step 1: Start MySQL Shell
+First, start the MySQL shell by running the following command as sudo:
+
+$ sudo mysql
+This will start the MySQL shell so you can work on the MySQL prompt.
+----------------------------------------------------------------------------------------------------------
