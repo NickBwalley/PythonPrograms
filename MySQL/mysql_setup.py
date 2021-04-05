@@ -12,6 +12,8 @@
 # mysql-> create database linuxhint; # create a new database
 # mysql-> quit # bye
 
+# ip a (inet ip-address)
+
 
 """
 Install MySQL Driver
