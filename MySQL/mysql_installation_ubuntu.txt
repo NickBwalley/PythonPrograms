@@ -1,0 +1,33 @@
+How to Install and Configure MySQL in Ubuntu 20.04 LTS
+
+MySQL, which stands for My (co-founder Michael Widenius’ daughter name) Structured Query Language,
+is an open source relational database management system.
+This RDBMS is supported by Oracle and runs on almost all platforms such as Linux, UNIX and MS Windows.
+MYSQL is usually the first choice for online publishing and web-based applications. Facebook, YouTube
+and Twitter all use MySQL as their RDBMS. MySQL is part of the very popular LAMP stack:
+ Linux, Apache, MySQL and Python/PHP/Perl.
+
+In this article we describe step by step how to proceed:
+
+Install the latest version of MySQL available in the apt package repository
+Run the MySQL security script
+Configure the root user to access the MySQL shell
+Finally test that MySQL is running
+
+We have run the commands and procedures mentioned in this article on an Ubuntu 20.04 LTS system
+
+
+
+MySQL installation and security configuration
+
+In this section, we describe how to install MySQL from the Ubuntu command line and configure security.
+
+You can open the Ubuntu command line, the terminal, either from the application launcher search bar or
+by pressing Ctrl+Alt+T.
+
+Step 1: Update repository index
+To install the latest available version of a software from the Internet repositories,
+your local repository index must match it. Run the following command as sudo to update your
+local repository index:
+
+$ sudo apt-get update
