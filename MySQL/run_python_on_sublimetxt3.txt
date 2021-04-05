@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------------------------------
+Setting Python3 on your Sublime Text
+--------------------------------------------------------------------------------------------------------
+Create a new file and save it with extension .py for example save it as checkversion.py
+
+--------------------------------------------------------------------------------------------------------
+Go to Tools -> Build System -> Python then type on your checkversion.py
+
+import sys
+print(sys.version)
+
+then press CTRL + B to run the code on Sublime
+
+--------------------------------------------------------------------------------------------------------
+Example check version on Sublime Text 3
+As you see, the version on the sublime is Python 2.7 we need to use Python 3.
+Then we can set the Sublime Text to use Python3 instead of Python2. Here’s the step:
+--------------------------------------------------------------------------------------------------------
+First: Check where is your Python3 path using this command
+-------------------------------
+UNIX STYLE
+$ which python3
+/usr/local/bin/python3
+-------------------------------
+WINDOWS STYLE
+C:\Users\<users>py
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> import sys
+>>> os.path.dirname(sys.executable)
+'C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python37-32'
+-------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Second: Add new build system on your Sublime
+
+Tools -> Build System -> New Build System and make sure that the new build system has this following command
+-------------------------------
+UNIX STYLE
+{
+ "cmd": ["/usr/local/bin/python3", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+-------------------------------
+WINDOWS STYLE
+{
+ "cmd":["C:/Users/<user>/AppData/Local/Programs/Python/Python37-32/python.exe", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+-------------------------------
+and save this file as newPython3.sublime-build
+Third: Select your new system build newPython3 and re-run the checkversion.py and now it should be using
+Python 3
+
+Now you can use Python3 on your Sublime Text! Happy coding 😁
