@@ -5,8 +5,20 @@ Start by creating a connection to the database.
 Use the username and password from your MySQL database:
 """
 import mysql.connector
-mydb = mysql.connector.connect(host="localhost", user="root", passwd="N!ckb!!y.mysql099")
-print(mydb)
+my_db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="N!ckb!!y.mysql099"
+)
+
+# print(my_db)
+
+my_cursor = my_db.cursor()
+
+my_cursor.execute("CREATE DATABASE mydatabase1")
+
+
+
 
 
 

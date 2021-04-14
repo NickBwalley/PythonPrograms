@@ -5,7 +5,7 @@
 # mysql --version (confirm that mysql has been installed)
 
 # sudo mysql_secure_installation (mysql set up)
-# New Password: nick.mysql
+# New Password: N!ckb!!y.mysql099
 
 # sudo mysql -u root (go to mysql console)
 # mysql-> show databases;

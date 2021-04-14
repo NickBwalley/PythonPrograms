@@ -175,3 +175,10 @@ you can be sure that your MySQL is up and running.
 The process of installing and setting up MySQL on Ubuntu may seem cumbersome to some, especially
 when using the command line. However, if you carefully follow the above steps one by one,
 you will have no problems having a reliable, secure and stable installation of MySQL running on your Ubuntu.
+
+-------------------------------------------------
+ENTER MYSQL CONSOLE
+---------------------------------
+$ /usr/bin/mysql -u root -p
+or
+$ mysql -u root -p
