@@ -15,7 +15,7 @@ my_db = mysql.connector.connect(
 
 my_cursor = my_db.cursor()
 
-my_cursor.execute("CREATE DATABASE mydatabase1")
+my_cursor.execute("CREATE DATABASE testdb")
 
 
 
